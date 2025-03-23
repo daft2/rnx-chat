@@ -1,12 +1,5 @@
-import { View, Text } from "react-native";
-import React from "react";
+import { Redirect } from "expo-router";
 
-const SignInScreen = () => {
-  return (
-    <View>
-      <Text>SignInScreen</Text>
-    </View>
-  );
-};
-
-export default SignInScreen;
+export default function SignInRedirect() {
+  return <Redirect href="/(auth)/sign-in" />;
+}
