@@ -12,12 +12,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDBS7O-2O9m9PffmCToVg9avUrvRlnShiE",
-  authDomain: "rnx-video-chat.firebaseapp.com",
-  projectId: "rnx-video-chat",
-  storageBucket: "rnx-video-chat.firebasestorage.app",
-  messagingSenderId: "821092443984",
-  appId: "1:821092443984:web:6595b2584aa93d01376e55",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 // Initialize Firebase

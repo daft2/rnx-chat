@@ -176,7 +176,7 @@ export default function HomeScreen() {
 
       {/* Profile Menu Modal */}
       <Modal
-        animationType="slide"
+        animationType="fade"
         transparent={true}
         visible={profileMenuVisible}
         onRequestClose={() => setProfileMenuVisible(false)}
